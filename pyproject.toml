@@ -1,0 +1,20 @@
+[project]
+name = "cyberreason-bench"
+version = "0.1.0"
+description = "Evaluation harness, dataset loaders, and provenance-graph scaffolding for the Cyber Reason LM research programme."
+requires-python = ">=3.10"
+dependencies = [
+    "rank_bm25>=0.2.2",
+    "scikit-learn>=1.3",
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

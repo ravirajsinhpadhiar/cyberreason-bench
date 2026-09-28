@@ -1,0 +1,12 @@
+[
+  {"id": "adv-1", "source_id": "CVE-2024-1111", "text": "CVE-2024-1111: heap overflow in Nginx 1.25.1 HTTP/2 request parser allows remote code execution.", "relevant_query": "What does CVE-2024-1111 affect?"},
+  {"id": "adv-2", "source_id": "CVE-2024-1111", "text": "Follow-up advisory for CVE-2024-1111 confirms exploitation in the wild against Nginx 1.25.1 deployments.", "relevant_query": "Is CVE-2024-1111 being exploited?"},
+  {"id": "adv-3", "source_id": "CVE-2023-2222", "text": "CVE-2023-2222: SQL injection in an internal logging library, version 4.1.0, disclosed by internal review.", "relevant_query": "What does CVE-2023-2222 affect?"},
+  {"id": "adv-4", "source_id": "CVE-2023-2222", "text": "Patch notes for CVE-2023-2222: upgrade the logging library from 4.1.0 to 4.1.1 to remediate.", "relevant_query": "What version fixes CVE-2023-2222?"},
+  {"id": "adv-5", "source_id": "NIST-AC-2", "text": "NIST control AC-2 requires documented account management procedures including periodic review.", "relevant_query": "What does control AC-2 require?"},
+  {"id": "adv-6", "source_id": "NIST-AC-2", "text": "Implementation guidance for AC-2(1): automate account management using directory-service integration.", "relevant_query": "What does AC-2(1) recommend?"},
+  {"id": "adv-7", "source_id": "NIST-SC-7", "text": "SC-7 boundary protection: segment industrial control system networks from corporate IT networks.", "relevant_query": "What does SC-7 require for OT networks?"},
+  {"id": "adv-8", "source_id": "CVE-2022-3333", "text": "CVE-2022-3333: authentication bypass in an unrelated VPN appliance, versions before 9.0.2.", "relevant_query": "What does CVE-2022-3333 affect?"},
+  {"id": "adv-9", "source_id": "CVE-2022-3333", "text": "Mitigation advisory: CVE-2022-3333 is fully resolved in VPN appliance firmware 9.0.2 and later.", "relevant_query": "How is CVE-2022-3333 mitigated?"},
+  {"id": "adv-10", "source_id": "GENERIC-DISCUSSION", "text": "General best-practice discussion of patch management cadence, no specific CVE or control referenced.", "relevant_query": null}
+]
