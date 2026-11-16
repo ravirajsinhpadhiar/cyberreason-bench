@@ -2,16 +2,13 @@
 
 Evaluation-harness scaffolding for the **Cyber Reason LM** research programme.
 This is engineering infrastructure, not a paper by itself — it exists so the
-"Core / v1" engineering items in the research Index.xlsx have real, tested
+"Core / v1" engineering items in the research backlog have real, tested
 code under them instead of just a plan.
 
-Built overnight (2026-09-28/29) to make direct use of session compute
-rather than more idea-scoping — two research directions (Jev security study,
-YARA-RegGraph) were evaluated the same night and both came back as no-go /
-not-standalone (already scooped, or a subsection of existing work — see the
-project chat for the full memos). This repo is the pivot: build the
-infrastructure several already-scoped index items agree is needed regardless
-of which paper ships first.
+It provides four building blocks that several planned studies in the programme
+need regardless of which one runs first: a provenance-aware graph schema,
+hybrid retrieval with exact-identifier boosting, leakage-safe dataset splits,
+and grouped bootstrap statistics with a prespecified stop rule.
 
 ## What's here
 
